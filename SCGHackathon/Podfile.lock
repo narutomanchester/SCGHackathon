@@ -1,0 +1,22 @@
+PODS:
+  - Charts (3.2.0):
+    - Charts/Core (= 3.2.0)
+  - Charts/Core (3.2.0)
+  - TwicketSegmentedControl (0.1.2)
+
+DEPENDENCIES:
+  - Charts
+  - TwicketSegmentedControl
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Charts
+    - TwicketSegmentedControl
+
+SPEC CHECKSUMS:
+  Charts: 680c8328bd5e90cb14f67e00d2176f3113d19141
+  TwicketSegmentedControl: 6d7a4cf243657e0ac3f00d06d873a25334c04042
+
+PODFILE CHECKSUM: 87c4eb9b73747620bc8d041ed5c3c5424727dc9a
+
+COCOAPODS: 1.5.3
