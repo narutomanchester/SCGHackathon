@@ -10,13 +10,14 @@
 		0480D8B62184BC3B000CE809 /* DetailStaticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480D8B52184BC3B000CE809 /* DetailStaticsViewController.swift */; };
 		0480D8B82184BE68000CE809 /* LineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480D8B72184BE68000CE809 /* LineChartViewController.swift */; };
 		0480D8BA2184BF0D000CE809 /* TableStaticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480D8B92184BF0D000CE809 /* TableStaticsViewController.swift */; };
+		0480D8BD2184CB5C000CE809 /* UIViewController+Add:RemoveChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480D8BC2184CB5C000CE809 /* UIViewController+Add:RemoveChildView.swift */; };
+		0480D8BF2184CFBD000CE809 /* UIView+DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480D8BE2184CFBD000CE809 /* UIView+DropShadow.swift */; };
 		048FA61A218207CA0025AD38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048FA619218207CA0025AD38 /* AppDelegate.swift */; };
 		048FA61F218207CA0025AD38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048FA61D218207CA0025AD38 /* Main.storyboard */; };
 		048FA621218207CC0025AD38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048FA620218207CC0025AD38 /* Assets.xcassets */; };
 		048FA624218207CC0025AD38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048FA622218207CC0025AD38 /* LaunchScreen.storyboard */; };
 		04A8BB3E21848AB3009C1D91 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A8BB3D21848AB3009C1D91 /* MapKit.framework */; };
 		04A8BB4021848AC9009C1D91 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8BB3F21848AC9009C1D91 /* MainViewController.swift */; };
-		04A8BB422184A12B009C1D91 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8BB412184A12B009C1D91 /* DetailViewController.swift */; };
 		04A8BB462184A423009C1D91 /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8BB452184A423009C1D91 /* BalloonMarker.swift */; };
 		4B5CBBE0E6F1530EB19CBDD5 /* Pods_SCGHackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD05AEDE9F5CDC35ACE8942 /* Pods_SCGHackathon.framework */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,8 @@
 		0480D8B52184BC3B000CE809 /* DetailStaticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailStaticsViewController.swift; sourceTree = "<group>"; };
 		0480D8B72184BE68000CE809 /* LineChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartViewController.swift; sourceTree = "<group>"; };
 		0480D8B92184BF0D000CE809 /* TableStaticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableStaticsViewController.swift; sourceTree = "<group>"; };
+		0480D8BC2184CB5C000CE809 /* UIViewController+Add:RemoveChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Add:RemoveChildView.swift"; sourceTree = "<group>"; };
+		0480D8BE2184CFBD000CE809 /* UIView+DropShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+DropShadow.swift"; sourceTree = "<group>"; };
 		048FA616218207CA0025AD38 /* SCGHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCGHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048FA619218207CA0025AD38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		048FA61E218207CA0025AD38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,7 +36,6 @@
 		048FA625218207CC0025AD38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04A8BB3D21848AB3009C1D91 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		04A8BB3F21848AC9009C1D91 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		04A8BB412184A12B009C1D91 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		04A8BB452184A423009C1D91 /* BalloonMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
 		1DD05AEDE9F5CDC35ACE8942 /* Pods_SCGHackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SCGHackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4686810DBC3714FC36F593B9 /* Pods-SCGHackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCGHackathon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SCGHackathon/Pods-SCGHackathon.debug.xcconfig"; sourceTree = "<group>"; };
@@ -53,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0480D8BB2184CB37000CE809 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0480D8BC2184CB5C000CE809 /* UIViewController+Add:RemoveChildView.swift */,
+				0480D8BE2184CFBD000CE809 /* UIView+DropShadow.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		048FA60D218207CA0025AD38 = {
 			isa = PBXGroup;
 			children = (
@@ -75,9 +86,9 @@
 			isa = PBXGroup;
 			children = (
 				048FA61D218207CA0025AD38 /* Main.storyboard */,
-				04A8BB3F21848AC9009C1D91 /* MainViewController.swift */,
-				04A8BB412184A12B009C1D91 /* DetailViewController.swift */,
 				048FA620218207CC0025AD38 /* Assets.xcassets */,
+				0480D8BB2184CB37000CE809 /* Helper */,
+				04A8BB3F21848AC9009C1D91 /* MainViewController.swift */,
 				048FA619218207CA0025AD38 /* AppDelegate.swift */,
 				048FA622218207CC0025AD38 /* LaunchScreen.storyboard */,
 				048FA625218207CC0025AD38 /* Info.plist */,
@@ -226,11 +237,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A8BB422184A12B009C1D91 /* DetailViewController.swift in Sources */,
 				0480D8B82184BE68000CE809 /* LineChartViewController.swift in Sources */,
+				0480D8BF2184CFBD000CE809 /* UIView+DropShadow.swift in Sources */,
 				048FA61A218207CA0025AD38 /* AppDelegate.swift in Sources */,
 				04A8BB4021848AC9009C1D91 /* MainViewController.swift in Sources */,
 				04A8BB462184A423009C1D91 /* BalloonMarker.swift in Sources */,
+				0480D8BD2184CB5C000CE809 /* UIViewController+Add:RemoveChildView.swift in Sources */,
 				0480D8BA2184BF0D000CE809 /* TableStaticsViewController.swift in Sources */,
 				0480D8B62184BC3B000CE809 /* DetailStaticsViewController.swift in Sources */,
 			);
