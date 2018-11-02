@@ -372,6 +372,14 @@
                                                 <constraint firstItem="ous-E1-YzY" firstAttribute="leading" secondItem="3W5-h0-GGf" secondAttribute="trailing" id="yjS-pc-4Rr"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="Lbl1st" destination="GpW-Tw-4di" id="dqg-7H-vq7"/>
+                                            <outlet property="Lbl2nd" destination="uJQ-tB-qkm" id="A8y-Ty-DEJ"/>
+                                            <outlet property="Lbl3rd" destination="hli-5Z-fxP" id="Iuu-0X-Knk"/>
+                                            <outlet property="Lbl4th" destination="leI-Sv-o4S" id="rsO-6R-Mji"/>
+                                            <outlet property="Lbl5th" destination="n0f-N1-cC1" id="ZPM-GY-ggc"/>
+                                            <outlet property="Lbl6th" destination="3Qg-NP-VqR" id="npi-8L-Clc"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

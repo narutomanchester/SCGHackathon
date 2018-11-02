@@ -75,7 +75,7 @@ class LineChartViewController: UIViewController, ChartViewDelegate {
         
         
         lineChartView.animate(xAxisDuration: 2.5)
-        self.setDataCount(5, range: 30)
+        self.setDataCount(17, range: 30)
     }
     
     func setDataCount(_ count: Int, range: UInt32) {

@@ -33,6 +33,18 @@ class MainViewController: UIViewController, MKMapViewDelegate {
         addAnnotations(lat: 34.930979, long: 91.492497, name: "China", subname: "SK Factory")
         addAnnotations(lat: 42.851806, long: 119.956609, name: "China", subname: "SK Factory")
         addAnnotations(lat: 31.400535, long: 112.954717, name: "China", subname: "SK Factory")
+        addAnnotations(lat: 34.764179, long: 102.181944, name: "China", subname: "SK Factory")
+        addAnnotations(lat: 37.740313, long: 94.099542, name: "China", subname: "SK Factory")
+        addAnnotations(lat: 30.774879, long: 108.858711, name: "China", subname: "SK Factory")
+        addAnnotations(lat: 38.569643, long: 76.880511, name: "China", subname: "SK Factory")
+        addAnnotations(lat: 36.337253, long: 92.869611, name: "China", subname: "SK Factory")
+        
+        addAnnotations(lat: 36.337253, long: 86.719957, name: "China", subname: "SK Factory")
+        addAnnotations(lat: 37.601176, long: 83.381573, name: "China", subname: "SK Factory")
+        addAnnotations(lat: 38.432077, long: 80.043190, name: "China", subname: "SK Factory")
+        addAnnotations(lat: 35.483038, long: 82.678756, name: "China", subname: "SK Factory")
+        addAnnotations(lat: 33.893217, long: 81.097416, name: "China", subname: "SK Factory")
+        addAnnotations(lat: 30.320730, long: 84.962913, name: "China", subname: "SK Factory")
         
         addAnnotations(lat: 20.593683, long: 78.962883, name: "India", subname: "The Great Kabab Factory")
         
